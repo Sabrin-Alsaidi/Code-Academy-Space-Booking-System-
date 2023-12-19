@@ -94,10 +94,6 @@ namespace Code_Academy_Space_Booking_System.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("S_id"), 1L, 1);
 
-                    b.Property<string>("S_Location")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("S_name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

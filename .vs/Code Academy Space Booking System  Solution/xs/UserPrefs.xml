@@ -1,30 +1,31 @@
 ﻿<Properties StartupConfiguration="{1F3F1B57-A537-4067-BD52-C46EFA110132}|Default">
-  <MonoDevelop.Ide.ItemProperties.Code_220Academy_220Space_220Booking_220System PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Code Academy Space Booking System/BookingController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Code Academy Space Booking System/Program.cs">
     <Files>
-      <File FileName="Code Academy Space Booking System/BookingController.cs" Line="9" Column="42" />
-      <File FileName="Code Academy Space Booking System/EmptyHtmlFile.html" Line="17" Column="17" />
-      <File FileName="Code Academy Space Booking System/View/BookingDetails.html" Line="21" Column="27" />
-      <File FileName="Code Academy Space Booking System/Models/Booking.cs" Line="15" Column="28" />
+      <File FileName="Code Academy Space Booking System/Models/Booking.cs" Line="28" Column="24" />
+      <File FileName="Code Academy Space Booking System/Program.cs" Line="83" Column="1" />
+      <File FileName="Code Academy Space Booking System/Models/Space.cs" Line="17" Column="42" />
+      <File FileName="Code Academy Space Booking System/Models/Client.cs" Line="21" Column="20" />
+      <File FileName="Code Academy Space Booking System/MyDbContext/ApplicationDbContext.cs" Line="16" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Code Academy Space Booking System  Solution" expanded="True">
+          <Node name="Code Academy Space Booking System  Solution">
             <Node name="Code Academy Space Booking System">
-              <Node name="Dependencies" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="BookingController.cs" selected="True" />
+              <Node name="MyDbContext" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Code_220Academy_220Space_220Booking_220System PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

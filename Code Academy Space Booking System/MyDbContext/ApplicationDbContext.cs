@@ -8,7 +8,7 @@ namespace Code_Academy_Space_Booking_System.MyDbContext
 	{
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=(localhost); Initial Catalog=MakeenProject; Integrated Security=True;");
+            optionsBuilder.UseSqlServer("Data Source= localhost; Initial Catalog= CodeAcademyBookingDB; User ID = SA ; Password=Sab12345;");
         }
 
         public DbSet<Space> Spaces { get; set; }
